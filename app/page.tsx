@@ -3,11 +3,12 @@
 import { LayoutWrapper } from "@/components/layout/LayoutWrapper";
 import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
-import { HeroSection } from "@/components/sections/HeroSection";
+import { Interactive3DHero } from "@/components/sections/Interactive3DHero";
 import { WhoWeAreSection } from "@/components/sections/WhoWeAreSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { CaseStudySection } from "@/components/sections/CaseStudySection";
 import { ContactSection } from "@/components/sections/ContactSection";
+import { HeroSection } from "@/components";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
       {/* Navigation */}
       <Navigation soundEnabled={true} />
 
-      {/* Main Content Sections */}
+      {/* Interactive 3D Hero - Full immersive experience with 3D cards */}
+      <Interactive3DHero />
+
       <HeroSection soundEnabled={true} />
 
       <div className="section-divider max-w-7xl mx-auto" />
