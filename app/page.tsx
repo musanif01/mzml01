@@ -8,7 +8,7 @@ import { WhoWeAreSection } from "@/components/sections/WhoWeAreSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { CaseStudySection } from "@/components/sections/CaseStudySection";
 import { ContactSection } from "@/components/sections/ContactSection";
-import { HeroSection } from "@/components";
+import { HeroSection } from "@/components/sections/HeroSection";
 
 export default function Home() {
   return (

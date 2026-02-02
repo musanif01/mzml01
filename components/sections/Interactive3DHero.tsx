@@ -393,7 +393,7 @@ function RoomShell({
 // ROOM CONTENTS
 // ============================================
 function ServicesContent() {
-  const services = [
+  const services: { icon: string; label: string; pos: [number, number, number] }[] = [
     { icon: "💻", label: "Web Dev", pos: [-1.2, 0.6, 0.2] },
     { icon: "📱", label: "Mobile", pos: [0, 0.9, 0.6] },
     { icon: "🎨", label: "UI/UX", pos: [1.2, 0.6, 0.2] },
